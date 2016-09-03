@@ -1,4 +1,4 @@
-exports = {
+module.exports = {
   normal: {
     black: '#445660',
     red: '#DF8C8C',
