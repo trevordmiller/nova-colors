@@ -2,6 +2,8 @@
 
 A programming color scheme
 
+[![Build Status](https://travis-ci.org/trevordmiller/nova-colors.svg?branch=master)](https://travis-ci.org/trevordmiller/nova-colors)
+
 ## Getting Started
 
 `$ npm install -S nova-colors`
