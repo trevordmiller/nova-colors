@@ -1,6 +1,6 @@
 {
   "name": "nova-colors",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
