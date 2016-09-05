@@ -1,28 +1,29 @@
 {
   "name": "nova-colors",
   "version": "1.0.7",
-  "description": "A programming color scheme",
-  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
     "prepublish": "npm run lint && npm run test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trevordmiller/nova-colors.git"
+  "jest": {
+    "testEnvironment": "node"
   },
-  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trevordmiller/nova-colors/issues"
-  },
-  "homepage": "https://github.com/trevordmiller/nova-colors#readme",
   "devDependencies": {
     "eslint": "^3.4.0",
     "jest-cli": "^15.1.1"
   },
-  "jest": {
-    "testEnvironment": "node"
+  "main": "index.js",
+  "description": "Single source of truth to consume Nova color values",
+  "homepage": "https://trevordmiller.github.io/nova-docs",
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
+  "license": "MIT",
+  "keywords": [
+    "color-scheme",
+    "colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevordmiller/nova-colors.git"
   }
 }
