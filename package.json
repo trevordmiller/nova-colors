@@ -10,8 +10,8 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
-    "eslint": "^3.4.0",
-    "jest-cli": "^15.1.1"
+    "eslint": "3.4.0",
+    "jest-cli": "15.1.1"
   },
   "main": "index.js",
   "description": "Single source of truth to consume Nova color values",
