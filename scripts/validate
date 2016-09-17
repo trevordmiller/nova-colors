@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+npm run lint && npm test

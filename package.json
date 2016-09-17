@@ -1,10 +1,12 @@
 {
   "name": "nova-colors",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "scripts": {
-    "lint": "eslint .",
-    "test": "jest",
-    "prepublish": "npm run lint && npm run test"
+    "start": "scripts/start",
+    "push": "scripts/push",
+    "validate": "scripts/validate",
+    "test": "scripts/test",
+    "lint": "scripts/lint"
   },
   "jest": {
     "testEnvironment": "node"
