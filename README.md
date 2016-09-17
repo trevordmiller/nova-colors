@@ -12,7 +12,7 @@ Single source of truth to consume Nova color values
 
 0. Create branch
 0. `npm start` to develop
-0. `npm run push -- {type}` to push, where `type` is `major`, `minor`, or `patch`
+0. `npm run push {type}` to push, where `type` is `major`, `minor`, or `patch`
 0. Create a pull request
 0. Continuous Integration passes
 0. Maintainer merges your pull request
