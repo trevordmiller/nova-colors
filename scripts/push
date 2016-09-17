@@ -5,5 +5,5 @@ npm run validate
 git add -A
 git commit || true
 npm version "$@"
-git push
+git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
 git push --tags
