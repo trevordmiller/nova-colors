@@ -3,8 +3,7 @@
   "version": "1.0.8",
   "scripts": {
     "start": "npm test -- --watch",
-    "push": "git add -A && git commit && npm version \"$@\" && git push --follow-tags",
-    "prepush": "npm run validate",
+    "push": "npm run validate && git add -A && git commit && npm version $1 && git push --follow-tags",
     "validate": "npm run lint && npm test",
     "test": "jest",
     "lint": "eslint ."
