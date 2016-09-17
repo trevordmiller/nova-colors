@@ -2,9 +2,9 @@
   "name": "nova-colors",
   "version": "1.0.8",
   "scripts": {
+    "start": "npm test -- --watch",
     "test": "jest",
-    "lint": "eslint --fix .",
-    "start": "npm test -- --watch"
+    "lint": "eslint ."
   },
   "jest": {
     "testEnvironment": "node"
