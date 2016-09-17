@@ -1,6 +1,6 @@
 {
   "name": "nova-colors",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "scripts": {
     "start": "scripts/start",
     "push": "scripts/push",
