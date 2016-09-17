@@ -1,4 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
-npm run validate && git add -A && git commit && npm version "$@" && git push && git push --tags
+npm run validate
+git add -A
+git commit || true
+npm version "$@"
+git push
+git push --tags
