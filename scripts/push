@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+npm run validate && git add -A && git commit && npm version "$@" && git push --follow-tags
