@@ -4,7 +4,6 @@
   "scripts": {
     "start": "scripts/start",
     "push": "scripts/push",
-    "validate": "scripts/validate",
     "test": "scripts/test",
     "lint": "scripts/lint"
   },
