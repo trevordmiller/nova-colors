@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
   - "6"
-script: npm run validate
+script: npm test && npm run lint
 deploy:
   provider: npm
   email: trevordmiller@icloud.com

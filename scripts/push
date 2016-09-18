@@ -1,4 +1,13 @@
 #!/bin/bash
 set -euo pipefail
 
-npm run validate && git add -A && git commit && npm version "$@" && git push && git push --tags
+if [[ $# -eq 0 ]] ; then
+  echo 'A Semantic Versioning option of `major` `minor` or `patch` is required'
+  exit 1
+fi
+
+git add -A
+git commit || true
+npm version $1
+git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+git push --tags
