@@ -16,7 +16,7 @@
   },
   "main": "index.js",
   "description": "Single source of truth to consume Nova color values",
-  "homepage": "https://trevordmiller.github.io/nova-docs",
+  "homepage": "https://trevordmiller.github.io/nova",
   "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
   "license": "MIT",
   "keywords": [
