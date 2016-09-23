@@ -1,6 +1,6 @@
 module.exports = {
   normal: {
-    black: '#445660',
+    black: '#3C4C55',
     red: '#DF8C8C',
     green: '#A8CE93',
     yellow: '#DADA93',
