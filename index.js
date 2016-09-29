@@ -1,4 +1,4 @@
-module.exports = {
+let colors = {
   normal: {
     black: '#3C4C55',
     red: '#DF8C8C',
@@ -19,5 +19,28 @@ module.exports = {
     dark: '#1E272C',
     medium: '#556873',
     light: '#6A7D89',
-  },
+  }
+};
+
+colors.semantic = {
+  valueOrState: colors.normal.cyan,
+  identifier: colors.normal.blue,
+  global: colors.normal.magenta,
+  emphasis: colors.bright.magenta,
+  actionNeeded: colors.normal.red,
+  special: colors.bright.red,
+  statement: colors.normal.yellow,
+  type: colors.normal.green,
+
+  trivial: colors.bright.black,
+  background: '#435661',
+  foreground: colors.normal.white
+};
+
+colors.mood = {
+  positive: colors.normal.green,
+  negative: colors.normal.red,
+  neutral: colors.normal.blue
 }
+
+module.exports = colors;
