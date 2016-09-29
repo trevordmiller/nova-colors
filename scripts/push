@@ -6,6 +6,7 @@ if [[ $# -eq 0 ]] ; then
   exit 1
 fi
 
+npm run build
 git add -A
 git commit || true
 npm version $1

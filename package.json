@@ -3,18 +3,23 @@
   "version": "1.2.0",
   "scripts": {
     "start": "scripts/start",
-    "push": "scripts/push",
     "test": "scripts/test",
-    "lint": "scripts/lint"
+    "lint": "scripts/lint",
+    "build": "scripts/build",
+    "push": "scripts/push"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-jest": "15.0.0",
+    "babel-plugin-transform-object-rest-spread": "6.16.0",
+    "babel-preset-latest": "6.16.0",
     "eslint": "3.4.0",
     "jest-cli": "15.1.1"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "description": "Single source of truth to consume Nova color values",
   "homepage": "https://trevordmiller.github.io/nova",
   "author": "Trevor D. Miller <trevordmiller@icloud.com> (http://www.trevordmiller.com)",
