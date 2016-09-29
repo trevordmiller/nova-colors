@@ -6,7 +6,8 @@
     "test": "scripts/test",
     "lint": "scripts/lint",
     "build": "scripts/build",
-    "push": "scripts/push"
+    "push": "scripts/push",
+    "prepublish": "npm run build"
   },
   "jest": {
     "testEnvironment": "node"
