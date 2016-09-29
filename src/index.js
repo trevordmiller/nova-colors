@@ -42,6 +42,13 @@ export const syntaxGroups = {
   trivial: colorValues.grays.gray4,
 }
 
+export const versionControlGroups = {
+  added: colorValues.colors.green,
+  modified: colorValues.colors.orange,
+  removed: colorValues.colors.red,
+  renamed: colorValues.colors.blue,
+}
+
 export const ansiGroups = {
   normal: {
     black: uiGroups.background,

@@ -1,4 +1,9 @@
-import colorValues, {uiGroups, syntaxGroups, ansiGroups}  from './index'
+import colorValues, {
+  uiGroups,
+  syntaxGroups,
+  versionControlGroups,
+  ansiGroups,
+}  from './index'
 
 test('colors values', () => {
   expect(colorValues.colors.cyan).toBe('#7FC1CA')
@@ -12,6 +17,10 @@ test('UI group mappings to color values', () => {
 
 test('syntax group mappings to color values', () => {
   expect(syntaxGroups.type).toBe(colorValues.colors.green)
+})
+
+test('version control group mappings to color values', () => {
+  expect(versionControlGroups.renamed).toBe(colorValues.colors.blue)
 })
 
 test('ansi group mappings to color values', () => {
