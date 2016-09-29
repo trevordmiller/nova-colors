@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euo pipefail
 
-npm test -- --watch
+babel -w src -d lib --ignore test.js

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+babel src -d lib --ignore test.js
