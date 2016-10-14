@@ -1,4 +1,5 @@
 #!/bin/bash
 set -euo pipefail
 
-babel src -d lib --ignore test.js
+eslint . --ignore-pattern '/build/'
+babel src -d build --ignore test.js
