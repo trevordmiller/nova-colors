@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - node
 - '6'
-script: npm test && npm run lint
+script: npm test && npm run build
 deploy:
   provider: npm
   email: trevordmiller@icloud.com
@@ -10,4 +10,4 @@ deploy:
     secure: GbDtHLn7qpT293zED+yudXJR/o3FT7eIAwbmOQ5XT6nkiqm52i5db+fHxJYKFhnz9E/+xmPjZNMOalAQSRjJ0Qn4X34RWhAjT7N84rL1Is9BI3DDJE9TOgkQD6bO0nsCRccsYnuT+YFsReA6H0vtNDW7BOjt9Q/GuhZZJgrAR9O8gOP9n3RZxb+OI1DbAaUCoH1hq10rUM4Bdj6YUU/UU8ueAQYleh+mlpcUfxMk5nV+MfegHm3Ug0V4HxMkxWzN7VM9AlXPKLLGoNwYfEmpSUSo5/ufjhcRVBGVEliVEXeqvG5ICdaWywtSjh/wOafQfGqOJWId3rWjKBv8o8qPfT9BeNu3UEHsWeBm3WDNDDajtYKpJE2+krFaC7tisrDbdAhbVcS1rQvBBc0ydRgZNhGAw/C4lD2z6P5TE9ilyn1+Jp49VrQFvMdtwgkbmoI8URHYgsdC0McytJoZuYaNCWLATZasJtnPbJH6JEbwMp6C+b4JTuv5GGP6FcHVB87GayONA/8fI8lKnKZdHpy0imoByOfG7uwzhAKuXTu8+/kp6shZ94aiRein1LhfKjtEcFgoxfPGiaefCOhY/VsG3byLXVJcFTmuVLTftxSHl8k/otNUROOSqDpu6gxt8cU883AylYgrpZSNekbIrdQYIYct0xULXRKxiLP1d+h4EeU=
   on:
     repo: trevordmiller/nova-colors
-    branch: master
+    tags: true
