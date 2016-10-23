@@ -1,0 +1,16 @@
+#!/bin/bash
+set -euo pipefail
+
+release_type=$1
+
+script-log state "Pulling latest"
+git pull
+
+script-log state "Bumping version"
+npm version "$release_type" -m "Release %s"
+
+script-log state "Pushing"
+git push --set-upstream origin master
+git push --tags
+
+script-log state "Done"
