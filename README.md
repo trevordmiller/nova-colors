@@ -10,4 +10,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## More info
 
-**See the [documentation website](https://trevordmiller.github.io/nova) for more information**
+**See the [documentation website](https://trevordmiller.com/projects/nova) for more information**
